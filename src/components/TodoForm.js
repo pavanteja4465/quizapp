@@ -62,7 +62,7 @@ const TodoForm = () => {
                 setDescription('');
             })
             .catch(error => {
-                console.log("An error occurred while submitting:", error);
+                console.log("An error occurred while submitting work:", error);
             });
         }
     };
